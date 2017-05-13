@@ -1,0 +1,2 @@
+serviceClass: uni.posgrado.gwt.SeccionHorarioGwtRPCDSService
+path: 6DAD7A88CE2E60EEF9CDC3DDA47B23C7.gwt.rpc

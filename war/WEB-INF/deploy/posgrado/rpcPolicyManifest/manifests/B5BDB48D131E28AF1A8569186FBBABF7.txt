@@ -1,0 +1,2 @@
+serviceClass: uni.posgrado.gwt.TipoEvalGwtRPCDSService
+path: 3533DC3021DE2FBAE82ABE2E7D544D41.gwt.rpc

@@ -1,0 +1,2 @@
+serviceClass: uni.posgrado.gwt.PisoGwtRPCDSService
+path: C9F7DF35D6C3224C1F8BB63916C78FE6.gwt.rpc

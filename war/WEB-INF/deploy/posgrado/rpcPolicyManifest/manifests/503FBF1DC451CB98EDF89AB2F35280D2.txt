@@ -1,0 +1,2 @@
+serviceClass: uni.posgrado.gwt.SeccionFechaGwtRPCDSService
+path: 89661F060053F5278257B27D4724FBC7.gwt.rpc

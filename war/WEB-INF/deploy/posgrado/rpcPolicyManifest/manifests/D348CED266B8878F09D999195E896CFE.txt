@@ -1,0 +1,2 @@
+serviceClass: uni.posgrado.gwt.PostulacionGwtRPCDSService
+path: 2C0C526311B13473330389AD1A536DD9.gwt.rpc

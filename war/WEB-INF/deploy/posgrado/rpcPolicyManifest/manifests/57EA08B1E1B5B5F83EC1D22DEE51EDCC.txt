@@ -1,0 +1,2 @@
+serviceClass: uni.posgrado.gwt.PlanEstudioGwtRPCDSService
+path: 3D70E9324000078C325C045C139E2D81.gwt.rpc

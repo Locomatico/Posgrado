@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="Inscripcion">
+	<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+	<class>uni.posgrado.shared.BitConverter</class>
+	<class>uni.posgrado.shared.model.Opcion</class>
+	<class>uni.posgrado.shared.model.Rol</class>
+	<class>uni.posgrado.shared.model.RolOpcion</class>
+	<class>uni.posgrado.shared.model.RolOpcionPK</class>
+	<class>uni.posgrado.shared.model.Usuario</class>
+	<class>uni.posgrado.shared.model.RolUsuario</class>
+	<class>uni.posgrado.shared.model.RolUsuarioPK</class>
+	<class>uni.posgrado.shared.model.Variable</class>
+	<class>uni.posgrado.shared.model.VariablePK</class>
+	<class>uni.posgrado.shared.model.Regulacion</class>
+	<class>uni.posgrado.shared.model.Institucion</class>
+	<class>uni.posgrado.shared.model.Unidad</class>
+	<class>uni.posgrado.shared.model.Programa</class>
+	<class>uni.posgrado.shared.model.PlanEstudio</class>
+	<class>uni.posgrado.shared.model.Curso</class>
+	<class>uni.posgrado.shared.model.Malla</class>
+	<class>uni.posgrado.shared.model.Actividad</class>
+	<class>uni.posgrado.shared.model.Periodo</class>
+	<class>uni.posgrado.shared.model.PeriodoActividad</class>
+	<class>uni.posgrado.shared.model.PeriodoPrograma</class>
+	<class>uni.posgrado.shared.model.Seccion</class>
+	<class>uni.posgrado.shared.model.Ciclo</class>
+	<class>uni.posgrado.shared.model.Persona</class>
+	<class>uni.posgrado.shared.model.VinculoDocente</class>
+	<class>uni.posgrado.shared.model.Local</class>
+	<class>uni.posgrado.shared.model.SeccionDocente</class>
+	<class>uni.posgrado.shared.model.SeccionFecha</class>
+	<class>uni.posgrado.shared.model.Modalidad</class>
+	<class>uni.posgrado.shared.model.Convocatoria</class>
+	<class>uni.posgrado.shared.model.ConvocatoriaDetalle</class>
+	<class>uni.posgrado.shared.model.TipoEval</class>
+	<class>uni.posgrado.shared.model.Evaluacion</class>
+	<class>uni.posgrado.shared.model.EstadoPost</class>
+	<class>uni.posgrado.shared.model.ReqEstado</class>
+	<class>uni.posgrado.shared.model.Requisito</class>
+	<class>uni.posgrado.shared.model.Postulacion</class>
+	<class>uni.posgrado.shared.model.RequisitoCurso</class>
+	<class>uni.posgrado.shared.model.Empresa</class>
+	<class>uni.posgrado.shared.model.Representante</class>
+	<class>uni.posgrado.shared.model.Evento</class>
+	<class>uni.posgrado.shared.model.SeccionHorario</class>
+	<class>uni.posgrado.shared.model.Pabellon</class>
+	<class>uni.posgrado.shared.model.Piso</class>
+	<class>uni.posgrado.shared.model.Espacio</class>
+	<class>uni.posgrado.shared.model.Recurso</class>
+	<class>uni.posgrado.shared.model.Implementacion</class>
+	<properties>
+			<!--<property name="javax.persistence.jdbc.password" value="1QAZXSW2"/>
+			<property name="javax.persistence.jdbc.user" value="locomatico"/>-->
+			<property name="javax.persistence.jdbc.user" value="postgres"/>
+			<property name="javax.persistence.jdbc.password" value="123456"/>
+			<property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/sacad_db_ultimo"/>
+			<property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+	</properties>
+		
+	</persistence-unit>
+</persistence>

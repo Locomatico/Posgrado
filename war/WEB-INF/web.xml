@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+              http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5"
+         xmlns="http://java.sun.com/xml/ns/javaee">
+
+  <!-- Servlets -->
+  
+  <servlet>
+  	<servlet-name>LoginGwtRPCDSService</servlet-name>
+  	<servlet-class>uni.posgrado.server.LoginGwtRPCDSServiceImpl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>LoginGwtRPCDSService</servlet-name>
+  	<url-pattern>/posgrado/LoginGwtRPCDSService</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>OpcionGwtRPCDSService</servlet-name>
+  	<servlet-class>uni.posgrado.server.OpcionGwtRPCDSServiceImpl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>OpcionGwtRPCDSService</servlet-name>
+  	<url-pattern>/posgrado/OpcionGwtRPCDSService</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>RolGwtRPCDSService</servlet-name>
+  	<servlet-class>uni.posgrado.server.RolGwtRPCDSServiceImpl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>RolGwtRPCDSService</servlet-name>
+  	<url-pattern>/posgrado/RolGwtRPCDSService</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>RolUsuarioGwtRPCDSService</servlet-name>
+  	<servlet-class>uni.posgrado.server.RolUsuarioGwtRPCDSServiceImpl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>RolUsuarioGwtRPCDSService</servlet-name>
+  	<url-pattern>/posgrado/RolUsuarioGwtRPCDSService</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+  	<servlet-name>UsuarioGwtRPCDSService</servlet-name>
+  	<servlet-class>uni.posgrado.server.UsuarioGwtRPCDSServiceImpl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>UsuarioGwtRPCDSService</servlet-name>
+  	<url-pattern>/posgrado/UsuarioGwtRPCDSService</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>VariableGwtRPCDSService</servlet-name>
+  	<servlet-class>uni.posgrado.server.VariableGwtRPCDSServiceImpl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>VariableGwtRPCDSService</servlet-name>
+  	<url-pattern>/posgrado/VariableGwtRPCDSService</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>RegulacionGwtRPCDSService</servlet-name>
+  	<servlet-class>uni.posgrado.server.RegulacionGwtRPCDSServiceImpl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>RegulacionGwtRPCDSService</servlet-name>
+  	<url-pattern>/posgrado/RegulacionGwtRPCDSService</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>InstitucionGwtRPCDSService</servlet-name>
+  	<servlet-class>uni.posgrado.server.InstitucionGwtRPCDSServiceImpl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>InstitucionGwtRPCDSService</servlet-name>
+  	<url-pattern>/posgrado/InstitucionGwtRPCDSService</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>UnidadGwtRPCDSService</servlet-name>
+  	<servlet-class>uni.posgrado.server.UnidadGwtRPCDSServiceImpl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>UnidadGwtRPCDSService</servlet-name>
+  	<url-pattern>/posgrado/UnidadGwtRPCDSService</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>ProgramaGwtRPCDSService</servlet-name>
+  	<servlet-class>uni.posgrado.server.ProgramaGwtRPCDSServiceImpl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ProgramaGwtRPCDSService</servlet-name>
+  	<url-pattern>/posgrado/ProgramaGwtRPCDSService</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>PlanEstudioGwtRPCDSService</servlet-name>
+  	<servlet-class>uni.posgrado.server.PlanEstudioGwtRPCDSServiceImpl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>PlanEstudioGwtRPCDSService</servlet-name>
+  	<url-pattern>/posgrado/PlanEstudioGwtRPCDSService</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>CursoGwtRPCDSService</servlet-name>
+  	<servlet-class>uni.posgrado.server.CursoGwtRPCDSServiceImpl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>CursoGwtRPCDSService</servlet-name>
+  	<url-pattern>/posgrado/CursoGwtRPCDSService</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>MallaGwtRPCDSService</servlet-name>
+  	<servlet-class>uni.posgrado.server.MallaGwtRPCDSServiceImpl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>MallaGwtRPCDSService</servlet-name>
+  	<url-pattern>/posgrado/MallaGwtRPCDSService</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>CicloGwtRPCDSService</servlet-name>
+  	<servlet-class>uni.posgrado.server.CicloGwtRPCDSServiceImpl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>CicloGwtRPCDSService</servlet-name>
+  	<url-pattern>/posgrado/CicloGwtRPCDSService</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  	<servlet-name>PeriodoGwtRPCDSService</servlet-name>
+  	<servlet-class>uni.posgrado.server.PeriodoGwtRPCDSServiceImpl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>PeriodoGwtRPCDSService</servlet-name>
+  	<url-pattern>/posgrado/PeriodoGwtRPCDSService</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>PeriodoProgramaGwtRPCDSService</servlet-name>
+  	<servlet-class>uni.posgrado.server.PeriodoProgramaGwtRPCDSServiceImpl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>PeriodoProgramaGwtRPCDSService</servlet-name>
+  	<url-pattern>/posgrado/PeriodoProgramaGwtRPCDSService</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+  	<servlet-name>PeriodoActividadGwtRPCDSService</servlet-name>
+  	<servlet-class>uni.posgrado.server.PeriodoActividadGwtRPCDSServiceImpl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>PeriodoActividadGwtRPCDSService</servlet-name>
+  	<url-pattern>/posgrado/PeriodoActividadGwtRPCDSService</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>ActividadGwtRPCDSService</servlet-name>
+  	<servlet-class>uni.posgrado.server.ActividadGwtRPCDSServiceImpl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ActividadGwtRPCDSService</servlet-name>
+  	<url-pattern>/posgrado/ActividadGwtRPCDSService</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>SeccionGwtRPCDSService</servlet-name>
+  	<servlet-class>uni.posgrado.server.SeccionGwtRPCDSServiceImpl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>SeccionGwtRPCDSService</servlet-name>
+  	<url-pattern>/posgrado/SeccionGwtRPCDSService</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>PersonaGwtRPCDSService</servlet-name>
+  	<servlet-class>uni.posgrado.server.PersonaGwtRPCDSServiceImpl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>PersonaGwtRPCDSService</servlet-name>
+  	<url-pattern>/posgrado/PersonaGwtRPCDSService</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>VinculoDocenteGwtRPCDSService</servlet-name>
+  	<servlet-class>uni.posgrado.server.VinculoDocenteGwtRPCDSServiceImpl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>VinculoDocenteGwtRPCDSService</servlet-name>
+  	<url-pattern>/posgrado/VinculoDocenteGwtRPCDSService</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>LocalGwtRPCDSService</servlet-name>
+  	<servlet-class>uni.posgrado.server.LocalGwtRPCDSServiceImpl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>LocalGwtRPCDSService</servlet-name>
+  	<url-pattern>/posgrado/LocalGwtRPCDSService</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>SeccionDocenteGwtRPCDSService</servlet-name>
+  	<servlet-class>uni.posgrado.server.SeccionDocenteGwtRPCDSServiceImpl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>SeccionDocenteGwtRPCDSService</servlet-name>
+  	<url-pattern>/posgrado/SeccionDocenteGwtRPCDSService</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>SeccionFechaGwtRPCDSService</servlet-name>
+  	<servlet-class>uni.posgrado.server.SeccionFechaGwtRPCDSServiceImpl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>SeccionFechaGwtRPCDSService</servlet-name>
+  	<url-pattern>/posgrado/SeccionFechaGwtRPCDSService</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>ModalidadGwtRPCDSService</servlet-name>
+  	<servlet-class>uni.posgrado.server.ModalidadGwtRPCDSServiceImpl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ModalidadGwtRPCDSService</servlet-name>
+  	<url-pattern>/posgrado/ModalidadGwtRPCDSService</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>ConvocatoriaGwtRPCDSService</servlet-name>
+  	<servlet-class>uni.posgrado.server.ConvocatoriaGwtRPCDSServiceImpl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ConvocatoriaGwtRPCDSService</servlet-name>
+  	<url-pattern>/posgrado/ConvocatoriaGwtRPCDSService</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>ConvocDetGwtRPCDSService</servlet-name>
+  	<servlet-class>uni.posgrado.server.ConvocDetGwtRPCDSServiceImpl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ConvocDetGwtRPCDSService</servlet-name>
+  	<url-pattern>/posgrado/ConvocDetGwtRPCDSService</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>TipoEvalGwtRPCDSService</servlet-name>
+  	<servlet-class>uni.posgrado.server.TipoEvalGwtRPCDSServiceImpl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>TipoEvalGwtRPCDSService</servlet-name>
+  	<url-pattern>/posgrado/TipoEvalGwtRPCDSService</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  	<servlet-name>EvaluacionGwtRPCDSService</servlet-name>
+  	<servlet-class>uni.posgrado.server.EvaluacionGwtRPCDSServiceImpl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>EvaluacionGwtRPCDSService</servlet-name>
+  	<url-pattern>/posgrado/EvaluacionGwtRPCDSService</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+ 	<servlet-name>RequisitoGwtRPCDSService</servlet-name>
+ 	<servlet-class>uni.posgrado.server.RequisitoGwtRPCDSServiceImpl</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ 	<servlet-name>RequisitoGwtRPCDSService</servlet-name>
+ 	<url-pattern>/posgrado/RequisitoGwtRPCDSService</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+ 	<servlet-name>ReqEstadoGwtRPCDSService</servlet-name>
+ 	<servlet-class>uni.posgrado.server.ReqEstadoGwtRPCDSServiceImpl</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ 	<servlet-name>ReqEstadoGwtRPCDSService</servlet-name>
+ 	<url-pattern>/posgrado/ReqEstadoGwtRPCDSService</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+ 	<servlet-name>PostulacionGwtRPCDSService</servlet-name>
+ 	<servlet-class>uni.posgrado.server.PostulacionGwtRPCDSServiceImpl</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ 	<servlet-name>PostulacionGwtRPCDSService</servlet-name>
+ 	<url-pattern>/posgrado/PostulacionGwtRPCDSService</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+ 	<servlet-name>RequisitoCursoGwtRPCDSService</servlet-name>
+ 	<servlet-class>uni.posgrado.server.RequisitoCursoGwtRPCDSServiceImpl</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ 	<servlet-name>RequisitoCursoGwtRPCDSService</servlet-name>
+ 	<url-pattern>/posgrado/RequisitoCursoGwtRPCDSService</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+    <description></description>
+    <display-name>ValidaServlet</display-name>
+    <servlet-name>ValidaServlet</servlet-name>
+    <servlet-class>uni.posgrado.server.excel.ValidaServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ValidaServlet</servlet-name>
+    <url-pattern>/posgrado/ValidaServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+ 	<servlet-name>SuneduGwtRPCDSService</servlet-name>
+ 	<servlet-class>uni.posgrado.server.SuneduGwtRPCDSServiceImpl</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ 	<servlet-name>SuneduGwtRPCDSService</servlet-name>
+ 	<url-pattern>/posgrado/SuneduGwtRPCDSService</url-pattern>
+ </servlet-mapping>
+
+    <servlet>
+  	<servlet-name>RepresentanteGwtRPCDSService</servlet-name>
+  	<servlet-class>uni.posgrado.server.RepresentanteGwtRPCDSServiceImpl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>RepresentanteGwtRPCDSService</servlet-name>
+  	<url-pattern>/posgrado/RepresentanteGwtRPCDSService</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>EventoGwtRPCDSService</servlet-name>
+  	<servlet-class>uni.posgrado.server.EventoGwtRPCDSServiceImpl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>EventoGwtRPCDSService</servlet-name>
+  	<url-pattern>/posgrado/EventoGwtRPCDSService</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>SeccionHorarioGwtRPCDSService</servlet-name>
+  	<servlet-class>uni.posgrado.server.SeccionHorarioGwtRPCDSServiceImpl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>SeccionHorarioGwtRPCDSService</servlet-name>
+  	<url-pattern>/posgrado/SeccionHorarioGwtRPCDSService</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+ 	<servlet-name>RecursoGwtRPCDSService</servlet-name>
+ 	<servlet-class>uni.posgrado.server.RecursoGwtRPCDSServiceImpl</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ 	<servlet-name>RecursoGwtRPCDSService</servlet-name>
+ 	<url-pattern>/posgrado/RecursoGwtRPCDSService</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+ 	<servlet-name>PabellonGwtRPCDSService</servlet-name>
+ 	<servlet-class>uni.posgrado.server.PabellonGwtRPCDSServiceImpl</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ 	<servlet-name>PabellonGwtRPCDSService</servlet-name>
+ 	<url-pattern>/posgrado/PabellonGwtRPCDSService</url-pattern>
+ </servlet-mapping>
+
+ <servlet>
+ 	<servlet-name>PisoGwtRPCDSService</servlet-name>
+ 	<servlet-class>uni.posgrado.server.PisoGwtRPCDSServiceImpl</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ 	<servlet-name>PisoGwtRPCDSService</servlet-name>
+ 	<url-pattern>/posgrado/PisoGwtRPCDSService</url-pattern>
+ </servlet-mapping>
+
+ <servlet>
+ 	<servlet-name>EspacioGwtRPCDSService</servlet-name>
+ 	<servlet-class>uni.posgrado.server.EspacioGwtRPCDSServiceImpl</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ 	<servlet-name>EspacioGwtRPCDSService</servlet-name>
+ 	<url-pattern>/posgrado/EspacioGwtRPCDSService</url-pattern>
+ </servlet-mapping>
+  
+ <servlet>
+ 	<servlet-name>ImplementacionGwtRPCDSService</servlet-name>
+ 	<servlet-class>uni.posgrado.server.ImplementacionGwtRPCDSServiceImpl</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ 	<servlet-name>ImplementacionGwtRPCDSService</servlet-name>
+ 	<url-pattern>/posgrado/ImplementacionGwtRPCDSService</url-pattern>
+ </servlet-mapping>
+
+  <!-- Default page to serve -->
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+	
+</web-app>

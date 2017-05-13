@@ -1,0 +1,2 @@
+serviceClass: uni.posgrado.gwt.SuneduGwtRPCDSService
+path: B7F8D8FACC29A8BC6FFCEFEC58F4131F.gwt.rpc

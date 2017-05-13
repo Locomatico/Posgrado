@@ -1,0 +1,2 @@
+serviceClass: uni.posgrado.gwt.ReqEstadoGwtRPCDSService
+path: 644DFD46ED4D51952198246F8ECC3CBF.gwt.rpc

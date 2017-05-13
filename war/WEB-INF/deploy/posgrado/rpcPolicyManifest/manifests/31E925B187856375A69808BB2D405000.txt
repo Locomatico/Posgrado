@@ -1,0 +1,2 @@
+serviceClass: uni.posgrado.gwt.RequisitoCursoGwtRPCDSService
+path: E70684D47F38507A7467B39C0402DA05.gwt.rpc

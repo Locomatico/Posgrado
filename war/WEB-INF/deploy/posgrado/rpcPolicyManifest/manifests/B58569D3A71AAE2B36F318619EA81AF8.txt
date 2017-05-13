@@ -1,0 +1,2 @@
+serviceClass: uni.posgrado.gwt.VinculoDocenteGwtRPCDSService
+path: 178E937C7F3A7A5CC3833DDEBA24C069.gwt.rpc

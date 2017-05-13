@@ -1,0 +1,2 @@
+serviceClass: uni.posgrado.gwt.MallaGwtRPCDSService
+path: 6EE29FA4E4C4815ABCBB66F13835354C.gwt.rpc

@@ -1,0 +1,370 @@
+/** Add css rules here for your application. */
+
+/** Example rules used by the template application (remove for your app) */
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #777777;
+  margin: 40px 0px 70px;
+  text-align: center;
+}
+
+.sendButton {
+  display: block;
+  font-size: 16pt;
+}
+
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox {
+  width: 400px;
+}
+
+.dialogVPanel {
+  margin: 5px;
+}
+
+.serverResponseLabelError {
+  color: red;
+}
+
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+  margin: 15px 6px 6px;
+}
+
+.sisSeparator {
+	border-bottom: 2px solid gray;
+	background-color: white;
+	color: black;
+	font-weight: bold;
+	text-align: left;
+	font-size: 13px;
+}
+
+.toolStripVertical {
+	border: 1px solid #A7ABB4 !important;
+	background-color: #FFFFFF !important;
+	background-image: url("images/ToolStrip/background_vertical.png") !important;
+}
+
+/***
+Buttons style
+*/
+
+.button,
+.buttonOver,
+.buttonFocused,
+.buttonFocusedOver,
+.buttonDown,
+.buttonFocusedDown,
+.buttonSelected,
+.buttonSelectedFocused,
+.buttonSelectedDown,
+.buttonSelectedFocusedDown,
+.buttonSelectedOver,
+.buttonSelectedFocusedOver,
+.buttonDisabled,
+.buttonSelectedDisabled {
+    padding:2px;
+    font-family:Arial,Verdana,Bitstream Vera Sans,sans-serif; font-size:11px;
+    background:#DDDDDD url(./images/cssButton/button_stretch.png) repeat-x;
+	color:#000000;
+    border:1px solid #A6ABB4;
+}
+.buttonDisabled {
+    background:#E9E9E9 url(images/cssButton/button_Disabled_stretch.png) repeat-x;
+	border-left:1px solid #A7ABB4;
+	border-right:1px solid #A6AAB3;
+	border-top:1px solid #BABDC4;
+	border-bottom:1px solid #B4B8C1;
+}
+.buttonDisabled,
+.buttonSelectedDisabled {
+	font-weight:normal;
+	color:#AAAAAA;
+}
+
+.buttonFocused,
+.buttonFocusedOver,
+.buttonSelectedFocused,
+.buttonSelectedFocusedOver,
+.buttonSelectedFocusedDown {
+	border-left:1px solid #9BC8FF;
+	border-right:1px solid #9BC8FF;
+	border-top:1px solid #B2D3FC;
+	border-bottom:1px solid #AACBF6;
+}
+
+.buttonOver,
+.buttonFocusedOver,
+.buttonSelectedFocused,
+.buttonSelectedFocusedOver {
+    background:#B2D7FF url(./images/cssButton/button_Over_stretch.png) repeat-x;
+    border:1px solid #577CB0;
+}
+
+.buttonDown,
+.buttonFocusedDown,
+.buttonSelectedDown,
+.buttonSelectedFocusedDown {
+    background:#BEDDFF url(./images/cssButton/button_Down_stretch.png) repeat-x;
+	border-left:1px solid #577cb0;
+	border-right:1px solid #577cb0;
+	border-top:1px solid #577cb0;
+	border-bottom:1px solid #577cb0;
+}
+
+.buttonSelected,
+.buttonSelectedFocused,
+.buttonSelectedOver,
+.buttonSelectedFocusedOver,
+.buttonSelectedDisabled {
+    background:#B2D7FF url(./images/cssButton/button_Over_stretch.png) repeat-x;
+    border:1px solid #577CB0;
+}
+
+
+
+/* ImgButton */
+.imgButton,
+.imgButtonOver,
+.imgButtonSelected,
+.imgButtonSelectedDisabled,
+.imgButtonSelectedOver,
+.imgButtonDown,
+.imgButtonSelectedDown,
+.imgButtonDisabled {
+    font-family:Arial,Verdana,sans-serif; font-size:11px;
+}
+.imgButtonDisabled {
+    color:#666666;
+}
+
+/* StretchImgButton */
+.stretchImgButton,
+.stretchImgButtonSelected,
+.stretchImgButtonSelectedOver,
+.stretchImgButtonOver,
+.stretchImgButtonDown,
+.stretchImgButtonSelectedDown,
+.stretchImgButtonSelectedDisabled,
+.stretchImgButtonDisabled {
+    font-family:Arial,Verdana,sans-serif; font-size:11px;
+}
+.stretchImgButtonOver {
+    font-weight:normal;
+}
+.stretchImgButtonSelectedDisabled,
+.stretchImgButtonDisabled {
+	font-weight:normal;
+	color:#AAAAAA;
+}
+
+/* Button Title */
+.buttonTitle,
+.buttonTitleOver,
+.buttonTitleDown,
+.buttonTitleSelected,
+.buttonTitleFocused,
+.buttonTitleSelectedFocused,
+.buttonTitleSelectedOver,
+.buttonTitleFocusedOver,
+.buttonTitleSelectedFocusedOver,
+.buttonTitleSelectedDown,
+.buttonTitleFocusedDown,
+.buttonTitleSelectedFocusedDown,
+.buttonTitleDisabled,
+.buttonTitleSelectedDisabled {
+    font-family:Tahoma,Verdana,Bitstream Vera Sans,sans-serif; font-size:11px;
+	color:#000000;
+}
+.buttonTitleDisabled,
+.buttonTitleSelectedDisabled {
+	font-weight:normal;
+	color:#AAAAAA;
+}
+.summary {
+	font-weight: bold;
+}
+.sgwtTitle {
+    font-family:Arial,Verdana,tahoma,serif;
+    color:#454545;
+    font-size:18px;
+}
+.interactImageHover {
+    font-family:Verdana,Bitstream Vera Sans,sans-serif;
+    font-size:11px;
+    border:1px solid #808080;
+    padding:5px;
+    background-color:#b8d0ff;
+    color:black;
+}
+.estadoActual {
+	background-color:#7DFF4A;
+	font-weight: bold;
+}
+
+span.error {
+	color: red;
+	font-weight: bold;
+}
+
+.myBoxedGridCell,
+.myBoxedGridCellDark {
+    font-family:Verdana,Bitstream Vera Sans,sans-serif; font-size:11px;
+    color:black;
+    border-bottom:1px solid #a0a0a0; border-right:1px solid #a0a0a0;
+    background-color:#ffffff;
+    padding:5px;
+}
+.myBoxedGridCellOver,
+.myBoxedGridCellOverDark {
+    font-family:Verdana,Bitstream Vera Sans,sans-serif; font-size:11px;
+    color:black;
+    border-bottom:1px solid #a0a0a0; border-right:1px solid #a0a0a0;
+    background-color:#c0ffc0;
+    padding:5px;
+}
+.myBoxedGridCellSelected,
+.myBoxedGridCellSelectedDark {
+    font-family:Verdana,Bitstream Vera Sans,sans-serif; font-size:11px;
+    color:white;
+    border-bottom:1px solid #a0a0a0; border-right:1px solid #a0a0a0;
+    background-color:#000080;
+    padding:5px;
+}
+.myBoxedGridCellSelectedOver,
+.myBoxedGridCellSelectedOverDark {
+    font-family:Verdana,Bitstream Vera Sans,sans-serif; font-size:11px;
+    color:white;
+    border-bottom:1px solid #a0a0a0; border-right:1px solid #a0a0a0;
+    background-color:#8080ff;
+    padding:5px;
+}
+.myBoxedGridCellDisabled,
+.myBoxedGridCellDisabledDark {
+    font-family:Verdana,Bitstream Vera Sans,sans-serif; font-size:11px;
+    color:#808080;
+    border-bottom:1px solid #a0a0a0; border-right:1px solid #a0a0a0;
+    background-color:#ffffff;
+    padding:5px;
+}
+
+
+.myOtherGridCell,
+.myEvenGridCell, 
+.myEvenGridCellDark {
+    font-family:Verdana,Bitstream Vera Sans,sans-serif; font-size:11px;
+    color:black;
+    border-bottom:1px solid #ffffff; border-top:1px solid #ffffff;
+    background-color:#ffffff;
+    padding:5px;
+}
+.myOtherGridCellDark,
+.myOddGridCell, 
+.myOddGridCellDark {
+    font-family:Verdana,Bitstream Vera Sans,sans-serif; font-size:11px;
+    color:black;
+    border-bottom:1px solid #f0f0e8; border-top:1px solid #f0f0e8;
+    background-color:#f0f0e8;
+    padding:5px;
+}
+.myOtherGridCellOver,
+.myOtherGridCellOverDark,
+.myEvenGridCellOver,
+.myEvenGridCellOverDark,
+.myOddGridCellOver,
+.myOddGridCellOverDark {
+    font-family:Verdana,Bitstream Vera Sans,sans-serif; font-size:11px;
+    color:black;
+    border-bottom:1px solid #c0c0c0; border-top:1px solid #c0c0c0;
+    background-color:#ffffc0;
+    padding:5px;
+}
+.myOtherGridCellSelected,
+.myOtherGridCellSelectedDark,
+.myEvenGridCellSelected,
+.myEvenGridCellSelectedDark,
+.myOddGridCellSelected,
+.myOddGridCellSelectedDark {
+    font-family:Verdana,Bitstream Vera Sans,sans-serif; font-size:11px;
+    color:black;
+    border-bottom:1px solid #c0c0ff; border-top:1px solid #c0c0ff;
+    background-color:#c0c0ff;
+    padding:5px;
+}
+.myOtherGridCellSelectedOver,
+.myOtherGridCellSelectedOverDark,
+.myEvenGridCellSelectedOver,
+.myEvenGridCellSelectedOverDark,
+.myOddGridCellSelectedOver,
+.myOddGridCellSelectedOverDark {
+    font-family:Verdana,Bitstream Vera Sans,sans-serif; font-size:11px;
+    color:black;
+    border-bottom:1px solid #a0a0a0; border-top:1px solid #a0a0a0;
+    background-color:#e0e0ff;
+    padding:5px;
+}
+.myOtherGridCellDisabled,
+.myEvenGridCellDisabled,
+.myEvenGridCellDisabledDark {
+    font-family:Verdana,Bitstream Vera Sans,sans-serif; font-size:11px;
+    color:#808080;
+    border-bottom:1px solid #ffffff; border-top:1px solid #ffffff;
+    background-color:#ffffff;
+    padding:5px;
+}
+.myOtherGridCellDisabledDark,
+.myOddGridCellDisabled,
+.myOddGridCellDisabledDark {
+    font-family:Verdana,Bitstream Vera Sans,sans-serif; font-size:11px;
+    color:#808080;
+    border-bottom:1px solid #f0f0e8; border-top:1px solid #f0f0e8;
+    background-color:#f0f0e8;
+    padding:5px;
+}
+
+span#printElement .listTable  {
+    border:1px solid #a0a0a0;
+}
+
+span#printElement .listTable  td.myBoxedGridCell, span#printElement .listTable  td.myBoxedGridCellDark, span#printElement .listTable  td.specialCol  {
+    font-family:Verdana,Bitstream Vera Sans,sans-serif; 
+    font-size:12px !important;
+    color:black;
+    border:1px solid #a0a0a0;
+    background-color:#ffffff;
+    padding:5px;
+}
+
+span#printElement .listTable td.printHeader  {
+    font-family:Verdana,Bitstream Vera Sans,sans-serif; 
+    font-size:12px !important;
+    color:black;
+    border:1px solid #a0a0a0;
+    background-color:#ffffff;
+    padding:5px;
+}
+
+span#printElement td.sisSeparator {
+	font-family:Verdana,Bitstream Vera Sans,sans-serif;
+	font-size: 16px !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.bg-frontis {
+	background-size: 100%;
+}
+
+.bg-none {
+	background-image: none !important;
+}
+
+.bg-front {
+	background-image: url("/images/frontis.JPG"); background-repeat: no-repeat; background-position-x: center; background-position-y: center;
+	background-size: 100%;
+	padding:0 !important;
+}
+    

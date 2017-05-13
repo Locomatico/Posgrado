@@ -1,0 +1,2 @@
+serviceClass: uni.posgrado.gwt.VariableGwtRPCDSService
+path: 9FF2F30E4CDA321E98E7481EF92F078F.gwt.rpc

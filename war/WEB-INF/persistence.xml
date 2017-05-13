@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="Inscripcion">
+	<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+	<class>uni.posgrado.shared.BitConverter</class>
+	<class>uni.posgrado.shared.model.Opcion</class>
+	<class>uni.posgrado.shared.model.Rol</class>
+	<class>uni.posgrado.shared.model.RolOpcion</class>
+	<class>uni.posgrado.shared.model.RolOpcionPK</class>
+	<class>uni.posgrado.shared.model.Usuario</class>
+	<class>uni.posgrado.shared.model.RolUsuario</class>
+	<class>uni.posgrado.shared.model.RolUsuarioPK</class>
+	<class>uni.posgrado.shared.model.Variable</class>
+	<class>uni.posgrado.shared.model.VariablePK</class>
+	<class>uni.posgrado.shared.model.Regulacion</class>
+	<class>uni.posgrado.shared.model.Institucion</class>
+	<class>uni.posgrado.shared.model.Unidad</class>
+	<class>uni.posgrado.shared.model.Programa</class>
+	<class>uni.posgrado.shared.model.PlanEstudio</class>
+	<class>uni.posgrado.shared.model.Curso</class>
+	<class>uni.posgrado.shared.model.Malla</class>
+	<class>uni.posgrado.shared.model.Actividad</class>
+	<class>uni.posgrado.shared.model.Periodo</class>
+	<class>uni.posgrado.shared.model.PeriodoActividad</class>
+	<class>uni.posgrado.shared.model.PeriodoPrograma</class>
+	<properties>
+			<property name="javax.persistence.jdbc.password" value="123456"/>
+			<property name="javax.persistence.jdbc.user" value="postgres"/>
+			<property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/sacad_db_ultimo"/>
+			<property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+	</properties>
+		
+	</persistence-unit>
+</persistence>

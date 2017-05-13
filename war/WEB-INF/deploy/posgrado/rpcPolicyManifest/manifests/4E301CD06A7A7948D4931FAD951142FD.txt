@@ -1,0 +1,2 @@
+serviceClass: uni.posgrado.gwt.ConvocDetGwtRPCDSService
+path: F6EB449C7BC85ADD9F67030125ED4E65.gwt.rpc

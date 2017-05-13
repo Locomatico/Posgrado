@@ -1,0 +1,2 @@
+serviceClass: uni.posgrado.gwt.PabellonGwtRPCDSService
+path: 43E36F3EC45BB84C890F42CD80D24BBE.gwt.rpc

@@ -1,0 +1,47 @@
+com.google.gwt.i18n.shared.impl.DateRecord, true, true, true, true, com.google.gwt.i18n.shared.impl.DateRecord/3375188634, 3375188634
+com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException, true, true, true, true, com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException/3936916533, 3936916533
+com.google.gwt.user.client.rpc.RpcTokenException, true, true, false, false, com.google.gwt.user.client.rpc.RpcTokenException/2345075298, 2345075298
+com.google.gwt.user.client.rpc.XsrfToken, false, false, true, true, com.google.gwt.user.client.rpc.XsrfToken/4254043109, 4254043109
+com.smartgwt.client.util.LogicalDate, true, true, true, true, com.smartgwt.client.util.LogicalDate/1452805037, 1452805037
+com.smartgwt.client.util.LogicalTime, true, true, true, true, com.smartgwt.client.util.LogicalTime/644891758, 644891758
+java.lang.Boolean, true, true, true, true, java.lang.Boolean/476441737, 476441737
+java.lang.Character, true, true, true, true, java.lang.Character/2663399736, 2663399736
+java.lang.Exception, true, false, true, false, java.lang.Exception/1920171873, 1920171873
+java.lang.Float, true, true, true, true, java.lang.Float/1718559123, 1718559123
+java.lang.Integer, true, true, true, true, java.lang.Integer/3438268394, 3438268394
+java.lang.Number, true, false, true, false, java.lang.Number/300033342, 300033342
+java.lang.RuntimeException, true, false, true, false, java.lang.RuntimeException/515124647, 515124647
+java.lang.String, true, true, true, true, java.lang.String/2004016611, 2004016611
+java.lang.Throwable, true, false, true, false, java.lang.Throwable/2953622131, 2953622131
+java.sql.Date, true, true, true, true, java.sql.Date/730999118, 730999118
+java.sql.Time, true, true, true, true, java.sql.Time/1816797103, 1816797103
+java.sql.Timestamp, true, true, true, true, java.sql.Timestamp/3040052672, 3040052672
+java.util.ArrayList, true, true, false, false, java.util.ArrayList/4159755760, 4159755760
+java.util.Arrays$ArrayList, true, true, false, false, java.util.Arrays$ArrayList/2507071751, 2507071751
+java.util.Collections$EmptyList, true, true, false, false, java.util.Collections$EmptyList/4157118744, 4157118744
+java.util.Collections$SingletonList, true, true, false, false, java.util.Collections$SingletonList/1586180994, 1586180994
+java.util.Date, true, true, true, true, java.util.Date/3385151746, 3385151746
+java.util.LinkedList, true, true, false, false, java.util.LinkedList/3953877921, 3953877921
+java.util.Stack, true, true, false, false, java.util.Stack/1346942793, 1346942793
+java.util.Vector, true, true, false, false, java.util.Vector/3057315478, 3057315478
+uni.posgrado.gwt.PeriodoActividadGwtRPCDSService, false, false, false, false, _, 4256422374
+uni.posgrado.shared.model.Actividad, true, true, true, true, uni.posgrado.shared.model.Actividad/2903017770, 2903017770
+@ClientFields,uni.posgrado.shared.model.Actividad,idActividad,abreviatura,codigo,fechaCreacion,fechaUltModificacion,nombre,usuarioActualizacion,usuarioCreacion,idPeriodoPrograma
+uni.posgrado.shared.model.Institucion, true, true, true, true, uni.posgrado.shared.model.Institucion/2987121280, 2987121280
+@ClientFields,uni.posgrado.shared.model.Institucion,idInstitucion,fechaCreacion,fechaUltModificacion,persona,nombre,usuarioActualizacion,usuarioCreacion
+uni.posgrado.shared.model.Periodo, true, true, true, true, uni.posgrado.shared.model.Periodo/2967183750, 2967183750
+@ClientFields,uni.posgrado.shared.model.Periodo,idPeriodo,abreviatura,codigo,fechaCreacion,fechaFin,fechaInicio,fechaUltModificacion,nombre,tipo,usuarioActualizacion,usuarioCreacion
+uni.posgrado.shared.model.PeriodoActividad, true, true, true, true, uni.posgrado.shared.model.PeriodoActividad/2088281336, 2088281336
+@ClientFields,uni.posgrado.shared.model.PeriodoActividad,idPeriodoActividad,estado,fechaCreacion,fechaFin,fechaInicio,fechaUltModificacion,actividad,usuarioActualizacion,usuarioCreacion,periodoPrograma
+[Luni.posgrado.shared.model.PeriodoActividad;, true, true, false, false, [Luni.posgrado.shared.model.PeriodoActividad;/950793949, 950793949
+uni.posgrado.shared.model.PeriodoPrograma, true, true, true, true, uni.posgrado.shared.model.PeriodoPrograma/4048685511, 4048685511
+@ClientFields,uni.posgrado.shared.model.PeriodoPrograma,idPeriodoPrograma,abreviatura,estado,fechaCreacion,fechaFin,fechaInicio,fechaUltModificacion,nombre,tipo,usuarioActualizacion,usuarioCreacion,programa,periodo
+uni.posgrado.shared.model.Persona, true, true, true, true, uni.posgrado.shared.model.Persona/3528859798, 3528859798
+@ClientFields,uni.posgrado.shared.model.Persona,idPersona,apellidoMaterno,apellidoPaterno,correoInstitucion,estadoCivil,fechaCreacion,fechaNacimiento,fechaUltModificacion,indicadorVive,nombre,numeroDocumento,segundoNombre,tipoDocumento,usuarioActualizacion,usuarioCreacion,nombreCompleto
+uni.posgrado.shared.model.Programa, true, true, true, true, uni.posgrado.shared.model.Programa/3114686785, 3114686785
+@ClientFields,uni.posgrado.shared.model.Programa,idPrograma,codigo,codigoSunedu,descripcion,duracion,estado,fechaCreacion,fechaFin,fechaInicio,fechaUltModificacion,formacion,grado,unidad,metodologia,modalidad,nombre,tipoPeriodo,titulo,usuarioActualizacion,usuarioCreacion,idPeriodo
+uni.posgrado.shared.model.Unidad, true, true, true, true, uni.posgrado.shared.model.Unidad/850923523, 850923523
+@ClientFields,uni.posgrado.shared.model.Unidad,idUnidad,abreviatura,anexo,codigo,descripcion,direccion,email,fechaCreacion,fechaUltModificacion,institucion,idPrecedencia,nombre,responsable,telefono,tipo,usuarioActualizacion,usuarioCreacion,website
+uni.posgrado.shared.model.Variable, true, true, true, true, uni.posgrado.shared.model.Variable/2328535510, 2328535510
+@ClientFields,uni.posgrado.shared.model.Variable,id,codAuxiliar1,codAuxiliar2,estado,nomTabla,userAdd,userDel,userEdit
+uni.posgrado.shared.model.VariablePK, true, true, true, true, uni.posgrado.shared.model.VariablePK/2544628737, 2544628737

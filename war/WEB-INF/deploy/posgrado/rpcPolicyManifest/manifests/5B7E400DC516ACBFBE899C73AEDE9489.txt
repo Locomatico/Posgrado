@@ -1,0 +1,2 @@
+serviceClass: uni.posgrado.gwt.SeccionDocenteGwtRPCDSService
+path: 11B4C2025E1B52424A51B0E7D8ED8D56.gwt.rpc

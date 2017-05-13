@@ -1,0 +1,2 @@
+serviceClass: uni.posgrado.gwt.ConvocatoriaGwtRPCDSService
+path: FF71077B217BE4E9AFC7A1685F2ED04C.gwt.rpc

@@ -1,0 +1,2 @@
+serviceClass: uni.posgrado.gwt.RegulacionGwtRPCDSService
+path: 91EA5252464F1FFC5689C33597DA4F20.gwt.rpc

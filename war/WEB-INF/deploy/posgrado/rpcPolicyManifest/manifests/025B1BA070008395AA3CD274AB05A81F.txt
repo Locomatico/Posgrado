@@ -1,0 +1,2 @@
+serviceClass: uni.posgrado.gwt.CicloGwtRPCDSService
+path: F71CC9C70C439F424D742673DC3E762F.gwt.rpc
